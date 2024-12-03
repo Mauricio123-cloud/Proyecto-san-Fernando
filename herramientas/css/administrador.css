@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(200, 200, 400);
+    background-size: 100%;
+}
+
+header{
+    width: 98%;
+    height:80px;
+    background: rgba(116, 72, 218, 0.5);
+    margin-top: 1%;
+    border-radius: 10px;
+    margin-left: 1%;    
+}
+
+ul {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;    
+}
+
+ul li{
+    display: inline;
+}
+
+ul li img{
+    width: 60px;
+    height:60px;    
+    border-radius: 50%;
+    margin: 10px 20px;   
+}
+  
+li a {
+    display: block;
+    color:black;      
+    padding: 33px 10px;
+    text-decoration: none;
+    border-radius: 10px; 
+    text-align: center;  
+    float: right;
+}
+
+  li a:hover{
+    background:linear-gradient(45deg, rgba(100, 300, 200, 0.5),rgba(250, 250, 250, 0.5));;
+}
+
+#section{
+    background: linear-gradient(45deg, rgba(100, 300, 200, 0.5),rgba(250, 250, 250, 0.5));
+    width:fit-content;
+    /*max-width: 600px;*/
+    height:fit-content;
+    max-height:600px ;
+    border-radius: 10px;      
+    margin-top: 3%;
+    margin-left:1%;
+    padding:1px ;  
+    box-shadow: 5px 10px 15px;     
+}
+
+div.cajita{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+}
+div img{
+    border-radius: 50px;
+    box-shadow: 5px 10px 15px;
+    margin: 2%; 
+    width: 50px;
+}
+
+button{
+    padding: 5px 15px;
+    border-radius: 20px;   
+    border-color:rgb(100, 118, 218) ;   
+    /*width:fit-content;*/
+    height:fit-content;   
+    margin: 5px auto;   
+    box-shadow: 5px 10px 15px;
+    text-transform: capitalize; 
+    min-height: 50px;  
+    letter-spacing:2px; 
+    text-transform: capitalize;
+    font-size: medium;
+    min-width: 200px !important;
+}
+
+
+article{
+    width: 60%;
+    height: 1px;
+    background: rgb(151, 153, 153, .2);
+    margin:5% auto;
+    margin-left: 1%;
+    padding: 20px;    
+    border-radius: 50px;   
+    box-shadow: 5px 5px 15px;
+    border: 2px green solid;    
+             
+}
+
+footer{
+    background: linear-gradient(45deg, rgba(100, 300, 200, 0.5),rgba(250, 250, 250, 0.5));
+    width: 100%;
+    height: 50px;
+    color: black;
+    align-items: center;
+    display: flex;
+    text-transform: capitalize;
+    margin-top: 5%;
+}
